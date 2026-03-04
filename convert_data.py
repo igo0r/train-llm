@@ -4,8 +4,8 @@ import os
 # Convert data.jsonl to training format for mlx_lm
 # Need to convert to text format with proper prompt/completion structure
 
-input_file = "/Users/igorlantushenko/train-llm/training_data/data.jsonl"
-output_file = "/Users/igorlantushenko/train-llm/training_data/train.jsonl"
+input_file = "~/train-llm/training_data/data.jsonl"
+output_file = "~/train-llm/training_data/train.jsonl"
 
 with open(input_file, 'r') as f_in, open(output_file, 'w') as f_out:
     for line in f_in:
